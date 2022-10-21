@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+    line-height: normal;
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    color: #353535;
+    font-size: 2em;
+}
+p{
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+html{
+    -webkit-font-smoothing : antialiased ;
+}
+a{
+    color: #202020;
+    text-decoration: none!important;
+}
+a:hover , a:active , a:focus{
+    color: #29ca8e;
+    outline: none;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb{
+    cursor: pointer;
+    background: #202020;
+}
+
+section{
+    position: relative;
+    padding: 100px 0;
+}
+.section-title{
+    padding-bottom: 40px;
+}
+
+#contact,
+footer{
+    background: #fff;
+    text-align: center;
+}
+
+.overlay{
+    background: #536976;
+    background: linear-gradient(to right, #292e49, #536976);
+    background: -webkit-linear-gradient(to right , #292e49 , #536976);
+    opacity: 0.9;
+    position: absolute;
+    top: 0; bottom: 0;
+    right: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.online-form{
+    position: relative;
+}
+.online-form .form-control{
+    border-color: #f0f0f0;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50px;
+    box-shadow: none;
+    height: 50px;
+    margin-right: 0.5em;
+    padding-left: 15px;
+}
+.online-form input[type="email"]{
+    width: 60%;
+}
+.online-form button{
+    background: #29ca8e;
+    border: 0;
+    color: #fff;
+    position: absolute;
+    right: 6em;
+    width: 25%;
+}
+
+.online-form button:hover{
+    background: #202020;
+    color: #fff;
+}
+
+.section-btn{
+    background: #29ca8e;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 30px;
+    transition: 0.5s 0.2s;
+}
+
+.section-btn:hover ,
+.section-btn:focus{
+    background: #202020;
+    color: #fff;
+}
+
+/* Menu */
+
+
+/* Home */
+
+
+/* Feature */
+
+
+/* About */
+
+
+/* Testimonial */
+
+
+/* Pricing */
+
+
+/* Contact */
+
+
+/* Footer */
+
+
+/* Responsive */
